@@ -1,0 +1,19 @@
+{
+    "name": "alireza/test-composer",
+    "autoload": {
+        "psr-4": {
+            "TestComposer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alireza Farhanian",
+            "email": "a.farhanian@lifeweb.ir"
+        }
+    ],
+    "config": {
+        "process-timeout": 3600
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": false
+}
